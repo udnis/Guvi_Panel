@@ -1,0 +1,44 @@
+.social{
+	text-align: right;
+}
+i{
+	color: black;
+}
+
+
+.bg{
+    /* The image used */
+    background-image: url("background.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    
+    background-size: cover;
+}
+.reg-head{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+}
+.register{
+	padding-top: 20%; 
+	font-family: 'Open Sans', sans-serif;
+}
+.reg-form{
+	padding-top: 10%; 
+	font-family: 'Open Sans', sans-serif;
+}
+.reg-forms{
+	padding-top: 15%; 
+	padding-bottom: 30%; 
+	font-family: 'Open Sans', sans-serif;
+}
+.header{
+	font-family: 'Pacifico', cursive;	
+}
+a{
+	color: black;
+}

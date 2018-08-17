@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/guvi.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	
+	<style>
+body, html {
+   	
+    margin: 0;
+}
+
+.bg {
+	height: 100%;
+   
+    background-image: url("images/background.jpg");
+
+   	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: inherit;
+
+   
+}
+
+</style>
+</head>
+<body>
+<div class="bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 ">
+			 
+			  <h3 class="header">Guvi</h3>     
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 cover">
+			 	<h3 class="">
+			 	<ul class="list-inline social">
+					  <li class="list-inline-item ">
+					  	<a href="facebook.com"><i class="fa fa-facebook "></i></a>
+					  </li>
+					  <li class="list-inline-item ">
+					  	<a href="twitter.com"><i class="fa fa-twitter "></i></a>
+					  </li>
+					  <li class="list-inline-item ">
+					  	<a href="google.com"><i class="fa fa-google "></i></a>
+					  </li>
+
+				</ul>
+				</h3>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row ">
+			<div class="col-lg-6 col-sm-12 col-md-6 col-xs-12 register">
+			<p id="demo"></p>
+				<h2 class="reg-head"><b>Registration form</b></h2>
+				<p class="reg-head"><b>Think You could be innovative? That is all we need. </b></p>
+				<p class="reg-head"><b>Already have a account?</b></p>
+				<p class="reg-head"><a  class="reg-head" href="login.html"><button type="button" class="btn">Sign In</button></a></p>
+				
+
+
+			</div>
+			<div class="col-lg-6 col-sm-12 col-md-6 col-xs-12 reg-form">
+			<form class="form-horizontal" action="register.php" method="GET">
+				<div class="col-lg-offset-4 col-sm-offset-4 col-sm-6 col-md-6 col-xs-12 ">
+					<h3 class=""><b>SIGN UP</b></h3>
+					<hr size="10">
+				</div>
+			    <div class="form-group">
+			      <label class="control-label col-sm-4" for="fname">First Name:</label>
+			      <div class="col-sm-6">
+			        <input type="fname" class="form-control" id="demo" placeholder="Enter Firstname" name="fname">
+			      </div>
+			    </div>
+			    <div class="form-group">
+			      <label class="control-label col-sm-4" for="mname">Middle Name:</label>
+			      <div class="col-sm-6">
+			        <input type="mname" class="form-control" id="mname" placeholder="Enter Middle name" name="mname">
+			      </div>
+			    </div>
+			    <div class="form-group">
+			      <label class="control-label col-sm-4" for="lname">Last Name:</label>
+			      <div class="col-sm-6">
+			        <input type="lname" class="form-control" id="lname" placeholder="Enter Lastname" name="lname">
+			      </div>
+			    </div>
+			    <div class="form-group">
+			      <label class="control-label col-sm-4" for="phone">Phone:</label>
+			      <div class="col-sm-6">
+			        <input type="phone" class="form-control" id="phone" placeholder="Enter phone" name="phone">
+			      </div>
+			    </div>
+			    <div class="form-group">
+			      <label class="control-label col-sm-4" for="city">City:</label>
+			      <div class="col-sm-6">
+			        <input type="city" class="form-control" id="city" placeholder="Enter city" name="city">
+			      </div>
+			    </div>
+			    
+			    <div class="form-group">
+			      <label class="control-label col-sm-4" for="institute">Institute:</label>
+			      <div class="col-sm-6">
+			        <input type="institute" class="form-control" id="institute" placeholder="Enter institute" name="institute">
+			      </div>
+			    </div>
+			    <div class="form-group">
+			      <label class="control-label col-sm-4" for="email">Email:</label>
+			      <div class="col-sm-6">
+			        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+			      </div>
+			    </div>
+			    
+			    <div class="form-group">
+			      <label class="control-label col-sm-4" for="pwd">Password:</label>
+			      <div class="col-sm-6">          
+			        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+			      </div>
+			    </div>
+			    <div class="form-group">        
+			      
+			        <div class="checkbox col-sm-offset-6 col-xs-offset-4">
+			          <label><input type="checkbox" name="remember"> Remember me</label>
+			        </div>
+			      
+			    </div>
+			    <div class="form-group">        
+			      <div class="col-sm-offset-6 col-xs-offset-4">
+			        <button type="submit" class="btn btn-default" onclick="call()">Submit</button>
+			      </div>
+			    </div>
+			  </form>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
