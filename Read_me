@@ -1,0 +1,6 @@
+This is a sample project to demonstate the working of storing data in database and jason file.
+Technology used here are HTML5,Php,Mysql,Json,Css
+
+Firstly,You need to open an register in order to login into the panel,either way the pages got link.
+After registering the data will be stored in both database and a json file will be created
+Later you can login into your account to view your detail which request data from json file created.
